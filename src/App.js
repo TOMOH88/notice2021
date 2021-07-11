@@ -6,6 +6,7 @@ import Home from './routes/Home';
 import Navigation from './components/Navigation';
 import Detail from './routes/Detail';
 import Notice from './routes/Notice';
+import Board from './routes/Board';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/movie-detail" component={Detail}/>
       <Route path="/notice" component={Notice}/>
+      <Route path="/board" component={Board}/>
     </HashRouter>
   );
 }

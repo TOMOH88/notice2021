@@ -10,6 +10,7 @@ function Notice(props) {
             </span>
             <span>- Kingsman</span>
         </div>
+        
     );
 }
 
